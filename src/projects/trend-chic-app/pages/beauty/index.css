@@ -1,0 +1,6 @@
+.side-content-container {
+    position: static;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
