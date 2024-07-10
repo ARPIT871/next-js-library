@@ -1,0 +1,24 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.lifestyle-blog-container::-webkit-scrollbar,
+.side-content-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.lifestyle-blog-container,
+.side-content-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Ensuring the side content uses full height */
+.side-content-container {
+  position: static;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.lifestyle-blog-container {
+  overflow-y: auto;
+}
