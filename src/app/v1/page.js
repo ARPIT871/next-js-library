@@ -1,3 +1,4 @@
+'use client'
 import Advertisement from "@/projects/trend-chic-app/sections/home-section/advertisement";
 import Blog from "@/projects/trend-chic-app/sections/home-section/blogs";
 import FinanceBlog from "@/projects/trend-chic-app/sections/home-section/finance-blog";

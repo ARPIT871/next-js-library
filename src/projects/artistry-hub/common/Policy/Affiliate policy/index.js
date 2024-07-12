@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import { Typography, Link, Container } from '@mui/material';
 import { affiliatePolicyData } from '../../data/data';

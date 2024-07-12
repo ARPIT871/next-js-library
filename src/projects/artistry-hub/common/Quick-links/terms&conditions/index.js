@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import { Container, Typography, Box } from '@mui/material';
 import { termsData } from '../../data/data';
@@ -10,7 +11,7 @@ const TermsAndConditions = () => {
         </Typography>
         {termsData.introduction.map((paragraph, index) => (
           <Typography variant="body1" gutterBottom key={index}>
-            {paragraph}
+            {paragraph}   
           </Typography>
         ))}
         {termsData.sections.map((section, index) => (

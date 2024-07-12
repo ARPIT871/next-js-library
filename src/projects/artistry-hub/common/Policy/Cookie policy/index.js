@@ -1,3 +1,4 @@
+'use  client'
 import React from 'react';
 import { Typography, Box,  List, ListItem, ListItemText, Container } from '@mui/material';
 import { cookiePolicyData } from '../../data/data';

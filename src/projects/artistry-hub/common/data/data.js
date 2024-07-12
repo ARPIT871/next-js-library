@@ -3,45 +3,45 @@
 export const articles = [
  
   {
-    image: `/assets/active-img/running.jpg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/creativedirector',
     category: 'Creative Director',
   },
   {
-    image: `/assets/active-img/cycling.jpeg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/digitaldesigner',
     category: 'Digital Designer',
 
  },
   {
-    image: `/assets/active-img/swimming.jpeg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/digitalartist',
     category: 'Digital Artist',
   },
   {
-    image: `/assets/active-img/triathlon.jpeg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/uidesigner',
     category: 'UI Designer',
   },
   {
-    image: `/assets/active-img/walking.jpeg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/webdesigner',
     category: 'Web Designer',
   },
   {
-    image: `/assets/active-img/obstacle.webp`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/logodesigner',
     category: 'Logo Designer',
 
  },
   {
-    image: `/assets/active-img/fitness.jpeg`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/branddesigner',
     category: 'Brand Designer',
   },
  
   {
-    image: `/assets/active-img/healthwebp.webp`,
+    image:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     link: '/uxdesigner',
     category: 'UX Designer',
   },
@@ -52,20 +52,20 @@ export const articles = [
 
 export const creativedirectorblog = [
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Gastronomic Delights: Exploring World Cuisines',
     description: `<p>Join us on a captivating journey through the diverse tapestry of world cuisines. Our food blog is dedicated to uncovering the stories, traditions, and flavors behind iconic dishes and hidden gems from every corner of the globe. Whether you're intrigued by the spicy aromas of Thai street food, the delicate artistry of Japanese sushi, or the hearty flavors of Italian pasta, we bring you curated recipes, cultural insights, and culinary adventures that celebrate the richness of international gastronomy. From mastering cooking techniques to discovering local ingredients, embark on a gastronomic exploration that will inspire your culinary creativity and expand your palate.</p>`,
     link: '/creativedirector'
   },
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: ' Embracing Freshness and Sustainability',
     description: `<p>Dive into the world of farm-to-table dining with our blog dedicated to fresh, seasonal ingredients and sustainable cooking practices. Explore the journey from farm to plate as we highlight the importance of local sourcing, organic farming methods, and reducing food miles. Discover recipes that celebrate the natural flavors and nutritional benefits of locally sourced produce, artisanal cheeses, and responsibly harvested seafood. From community-supported agriculture tips to practical guides on composting and reducing food waste, we empower you to embrace a more sustainable lifestyle through conscious eating choices. Join us in celebrating the joys of fresh, flavorful food that nourishes both body and planet.
      </p>`,
    link: '/creativedirector'
   },
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Sweet and Savory Creations',
     description: `
     <p> Indulge in the art of baking with our comprehensive guide to sweet and savory creations. Whether you're a novice baker or seasoned pastry enthusiast, our blog offers a treasure trove of recipes, baking techniques, and expert tips to elevate your skills. From decadent cakes and flaky pastries to rustic breads and savory pies, each recipe is meticulously crafted to ensure delicious results. Dive into the science of baking with insights into ingredient selection, proper mixing methods, and achieving perfect texture and flavor. Explore the joy of kneading dough, whipping up airy meringues, and mastering the art of decorating desserts. With our step-by-step instructions and troubleshooting advice, discover the satisfaction of creating bakery-quality treats in your own kitchen.</p>
@@ -73,7 +73,7 @@ export const creativedirectorblog = [
     link:'/creativedirector'
   },
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Flavorful Plant-Based Cuisine',
     description: `
     <p> Explore the vibrant world of vegetarian cuisine with our blog dedicated to delicious plant-based recipes. Celebrating the abundance of seasonal produce and innovative meat alternatives, we showcase flavorful dishes that appeal to both vegetarians and flexitarians alike. From protein-packed mains to inventive salads and decadent desserts, our recipes are designed to satisfy cravings while promoting health and sustainability. Discover the versatility of plant-based ingredients and learn cooking techniques that enhance natural flavors and textures. Whether you're curious about incorporating more meatless meals into your diet or seeking inspiration for creative vegetarian cooking, join us as we redefine plant-based dining with delicious, nutritious, and inspiring recipes.</p>
@@ -81,7 +81,7 @@ export const creativedirectorblog = [
     link:'/creativedirector'
   },
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: ' Exploring Flavors from Around the World',
     description: `
     <p>Embark on a sensory journey with our exploration of the world's spice markets and culinary traditions. Our blog celebrates the rich tapestry of global flavors, from the fiery heat of Indian curries to the aromatic spices of Middle Eastern cuisine and the subtle complexities of Asian stir-fries. Delve into the history and cultural significance of spices as we guide you through recipes that showcase their transformative powers in cooking. Learn how to balance spices, create homemade spice blends, and incorporate exotic flavors into everyday meals. Whether you're a seasoned chef or an adventurous home cook, our curated collection of spice-infused recipes and cooking techniques will inspire you to elevate your culinary creations with bold and tantalizing flavors.</p>
@@ -89,7 +89,7 @@ export const creativedirectorblog = [
     link: '/creativedirector'
   },
   {
-    img: `/assets/active-img/obstacle.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Homestyle Recipes for Every Occasion',
     description: `
     <p>Rediscover the comforting nostalgia of homestyle cooking with our collection of classic recipes that warm the heart and soul. From hearty stews and soul-soothing soups to timeless desserts and beloved family favorites, our blog is a treasure trove of comforting dishes for every occasion. Whether you're seeking the perfect recipe for a cozy night in, planning a comforting meal for loved ones, or simply craving a taste of home, we offer step-by-step guides, cooking tips, and personal stories that celebrate the joys of comfort food. Join us as we explore the rich heritage and enduring appeal of these beloved culinary traditions, sharing recipes that bring comfort and happiness to your table.</p>
@@ -102,55 +102,55 @@ export const creativedirectorblog = [
 
 export const digitaldesignerblog = [
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering the Art of Makeup: A Beginner's Guide`,
     description: `Unlock the secrets to mastering makeup with our comprehensive beginner's guide. Whether you're a complete novice or looking to refine your skills, this guide covers everything from skincare preparation to choosing the right makeup products and application techniques. Learn how to create flawless looks for any occasion, from natural day makeup to glamorous evening styles. Dive into detailed tutorials on contouring, highlighting, and eyeshadow application, along with tips for selecting the best tools and products for your makeup routine. Discover how to enhance your natural beauty with confidence and creativity.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Healthy Eating Made Easy: Quick & Delicious Recipes for Busy Lives`,
     description: `Discover the art of healthy eating with our collection of quick and delicious recipes designed for busy lifestyles. Whether you're juggling work, family, or other commitments, our guide offers nutritious and flavorful meal ideas that are easy to prepare. Explore a variety of recipes for breakfast, lunch, and dinner that prioritize fresh ingredients, balanced nutrition, and culinary creativity. Learn practical tips for meal planning, smart shopping, and time-saving cooking techniques that help you maintain a healthy diet without sacrificing taste or convenience.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `How to Start Your Own Successful YouTube Channel`,
     description: `Embark on your journey to becoming a successful YouTuber with our comprehensive guide. Whether you're passionate about vlogging, tutorials, or entertainment, this guide covers every step of launching and growing your channel. Learn how to brainstorm content ideas that resonate with your audience, create high-quality videos using filming and editing techniques, and optimize your channel for maximum visibility and engagement. Dive into strategies for building a loyal subscriber base, monetizing your content, and leveraging social media to promote your channel effectively. Discover insider tips from successful YouTubers that will empower you to turn your creative passion into a thriving online presence.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Why You Should Explore the World`,
     description: `Explore the myriad reasons why travel is a transformative experience that enriches your life. From cultural immersion and personal growth to expanding your worldview, travel opens doors to new perspectives and opportunities. Discover the joy of exploring diverse cultures, cuisines, and landscapes around the globe. Learn how travel fosters empathy, resilience, and adaptability, while creating lasting memories and friendships. Whether you're planning a solo adventure, family vacation, or group tour, our exploration of the world will inspire you to embark on meaningful journeys that leave a lasting impact on your life.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Hosting Stylish and Memorable Gatherings',
     description: `Become an exceptional host with our guide to planning stylish and memorable gatherings. Whether you're hosting an intimate dinner party, festive holiday celebration, or casual get-together, this guide offers expert tips for creating inviting atmospheres and unforgettable experiences. Explore ideas for themed decorations, elegant table settings, and mouthwatering menus that cater to diverse tastes and dietary preferences. Learn how to coordinate entertainment, beverages, and interactive activities that ensure every guest enjoys a memorable and enjoyable event. Whether you're celebrating special occasions or simply gathering with loved ones, our guide will help you create cherished memories through exceptional hosting.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Hosting Stylish and Memorable Gatherings',
     description: `Become an exceptional host with our guide to planning stylish and memorable gatherings. Whether you're hosting an intimate dinner party, festive holiday celebration, or casual get-together, this guide offers expert tips for creating inviting atmospheres and unforgettable experiences. Explore ideas for themed decorations, elegant table settings, and mouthwatering menus that cater to diverse tastes and dietary preferences. Learn how to coordinate entertainment, beverages, and interactive activities that ensure every guest enjoys a memorable and enjoyable event. Whether you're celebrating special occasions or simply gathering with loved ones, our guide will help you create cherished memories through exceptional hosting.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Hosting Stylish and Memorable Gatherings',
     description: `Become an exceptional host with our guide to planning stylish and memorable gatherings. Whether you're hosting an intimate dinner party, festive holiday celebration, or casual get-together, this guide offers expert tips for creating inviting atmospheres and unforgettable experiences. Explore ideas for themed decorations, elegant table settings, and mouthwatering menus that cater to diverse tastes and dietary preferences. Learn how to coordinate entertainment, beverages, and interactive activities that ensure every guest enjoys a memorable and enjoyable event. Whether you're celebrating special occasions or simply gathering with loved ones, our guide will help you create cherished memories through exceptional hosting.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Hosting Stylish and Memorable Gatherings',
     description: `Become an exceptional host with our guide to planning stylish and memorable gatherings. Whether you're hosting an intimate dinner party, festive holiday celebration, or casual get-together, this guide offers expert tips for creating inviting atmospheres and unforgettable experiences. Explore ideas for themed decorations, elegant table settings, and mouthwatering menus that cater to diverse tastes and dietary preferences. Learn how to coordinate entertainment, beverages, and interactive activities that ensure every guest enjoys a memorable and enjoyable event. Whether you're celebrating special occasions or simply gathering with loved ones, our guide will help you create cherished memories through exceptional hosting.`,
     link: '/digitaldesigner'
   },
   {
-    img: `/assets/active-img/fitness.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: 'Hosting Stylish and Memorable Gatherings',
     description: `Become an exceptional host with our guide to planning stylish and memorable gatherings. Whether you're hosting an intimate dinner party, festive holiday celebration, or casual get-together, this guide offers expert tips for creating inviting atmospheres and unforgettable experiences. Explore ideas for themed decorations, elegant table settings, and mouthwatering menus that cater to diverse tastes and dietary preferences. Learn how to coordinate entertainment, beverages, and interactive activities that ensure every guest enjoys a memorable and enjoyable event. Whether you're celebrating special occasions or simply gathering with loved ones, our guide will help you create cherished memories through exceptional hosting.`,
     link: '/digitaldesigner'
@@ -160,37 +160,37 @@ export const digitaldesignerblog = [
 
 export const digitalartistblog = [
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Teamwork Makes the Dream Work: Young Athletes On the Court`,
     description: `Explore the transformative power of teamwork in youth sports with our in-depth look at young athletes on the court. From developing communication skills to fostering camaraderie and resilience, team sports teach invaluable life lessons that extend far beyond the game. Discover how young athletes build confidence, learn to strategize, and support each other through victories and challenges alike. Whether you're a parent, coach, or aspiring athlete, uncover the profound impact of teamwork on personal growth and athletic achievement.`,
     link: '/digitalartist'
   },
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering the Mid-Air Catch: A Look at Soccer Skills`,
     description: `Delve into the art of mastering mid-air catches in soccer, a skill that showcases agility, timing, and precision. Learn techniques for enhancing your aerial prowess, from positioning and timing your jump to maintaining focus amidst competition. Explore how soccer players train to improve their catching abilities and how this skill contributes to overall game strategy and performance. Whether you're a player aiming to elevate your game or a fan curious about the intricacies of soccer skills, our guide provides valuable insights into mastering this dynamic aspect of the sport.`,
     link:  '/digitalartist'
   },
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Footwork and Focus: Soccer Drills for Success`,
     description: `Enhance your soccer performance with focused drills designed to sharpen footwork, agility, and decision-making skills. Dive into a variety of drills that challenge players to improve their dribbling, passing, and defensive techniques under pressure. Learn how structured practice sessions can improve muscle memory, coordination, and overall game awareness on the field. Whether you're a coach developing training plans or a player looking to refine your skills, our guide offers practical advice and insights to elevate your soccer game to new heights.`,
     link:  '/digitalartist'
   },
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Precision and Speed: The Athlete's Mindset`,
     description: `Gain a deeper understanding of the athlete's mindset focused on precision, speed, and mental toughness. Explore how elite athletes cultivate focus, discipline, and resilience to achieve peak performance in competitive sports. Discover strategies for managing pressure, visualizing success, and maintaining confidence during training and competition. Whether you're pursuing athletic excellence or seeking inspiration from sports psychology, our guide provides valuable insights into the mental skills that drive success in sports and beyond.`,
     link:  '/digitalartist'
   },
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `From the Starting Line to the Finish: Track and Field Athlete`,
     description: `Follow the journey of a track and field athlete from training to competition, exploring the dedication, technique, and endurance required for success. Discover the specialized training regimens for sprinters, long-distance runners, jumpers, and throwers, each focusing on unique skills and physical conditioning. Learn about the mental strategies athletes use to overcome challenges and achieve personal bests in their respective events. Whether you're an aspiring athlete or a fan of track and field sports, our guide provides an inside look at the rigorous yet rewarding world of competitive athletics.`,
     link:  '/digitalartist'
   },
   {
-    img: `/assets/active-img/healthwebp.webp`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Building Strength and Flexibility: Gymnastics Training`,
     description: `Explore the art of gymnastics training, focusing on building strength, flexibility, and precision in movement. Dive into the fundamental skills and disciplines that gymnasts master, from tumbling and balance beam routines to artistic floor exercises. Learn about the conditioning exercises, drills, and techniques that gymnasts use to develop core strength, agility, and spatial awareness. Whether you're a gymnast-in-training or simply curious about this dynamic sport, our guide offers valuable insights into the dedication and athleticism required to excel in gymnastics.`,
     link:  '/digitalartist'
@@ -199,7 +199,7 @@ export const digitalartistblog = [
 
 export const uidesignerblog = [
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Credit Cards: The Good, the Bad, and the Ugly`,
     description: `Explore the multifaceted world of credit cards, understanding their benefits, drawbacks, and potential impact on personal finances. Credit cards offer convenience, security, and rewards such as cashback or travel points, making them popular for everyday purchases and online transactions. However, they also come with risks, including high-interest rates, fees for late payments, and the temptation to overspend beyond one's means.
 
@@ -207,7 +207,7 @@ export const uidesignerblog = [
     link: '/uidesigner'
   },
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Cash vs. Credit: Which is Right for You?`,
     description: `Dive into the debate between cash and credit as payment methods, evaluating the advantages and disadvantages of each to determine the best fit for personal financial management. Cash transactions offer immediacy and tangibility, promoting budget control and limiting the risk of overspending. They also provide privacy and are widely accepted without transaction fees.
 
@@ -217,7 +217,7 @@ export const uidesignerblog = [
     link:  '/uidesigner'
   },
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Understanding Stock Market Fluctuations`,
     description: `Delve into the complexities of stock market fluctuations, exploring the factors that influence daily price movements and long-term trends. Stock prices are influenced by a multitude of factors, including economic indicators (such as GDP growth and inflation rates), corporate earnings reports, geopolitical events, and investor sentiment.
 
@@ -227,7 +227,7 @@ export const uidesignerblog = [
     link:   '/uidesigner'
   },
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `The Importance of Financial Planning`,
     description: `Discover the critical role of financial planning in achieving financial stability, security, and long-term prosperity. Financial planning involves setting specific goals, creating a budget, managing debt, saving for emergencies, investing for the future, and planning for retirement.
 
@@ -237,7 +237,7 @@ export const uidesignerblog = [
     link:   '/uidesigner'
   },
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Technology and Your Finances: How to Stay Ahead`,
     description: `Explore the transformative impact of technology on personal finance management, leveraging digital tools and innovations to optimize financial decision-making and enhance financial well-being. Technology has revolutionized financial services, offering online banking, mobile payment solutions, budgeting apps, investment platforms, and robo-advisors that streamline financial transactions and planning processes.
 
@@ -247,7 +247,7 @@ export const uidesignerblog = [
     link:   '/uidesigner'
   },
   {
-    img: `/assets/active-img/nutrotion.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `The Power of Saving: Why You Should Start Today`,
     description: `Unlock the transformative potential of saving money as a cornerstone of financial stability, security, and future wealth accumulation. Saving involves setting aside a portion of income regularly to build emergency funds, achieve financial goals, and prepare for unexpected expenses.
 
@@ -262,37 +262,37 @@ export const uidesignerblog = [
 
 export const webdesignerblog = [
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering Everyday Makeup Looks`,
     description: `Discover how to achieve effortless and polished makeup looks suitable for everyday wear. Mastering everyday makeup involves understanding your skin type, choosing the right foundation for a natural finish, and enhancing your features with subtle contouring and highlighting techniques. Learn the importance of skincare as the foundation of any makeup routine, including cleansing, toning, moisturizing, and applying sunscreen. Explore various makeup products such as primers, concealers, eyeshadows, mascaras, and lipsticks, and how to select shades that complement your skin tone. Dive into practical tips for achieving long-lasting makeup that withstands daily activities while maintaining a fresh and natural appearance. Whether you prefer a minimalistic approach or enjoy experimenting with different makeup styles, this guide will help you create looks that enhance your natural beauty and boost your confidence every day.`,
     link: '/webdesigner'
   },
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Skincare Essentials: Building a Daily Routine`,
     description: `Building an effective skincare routine is essential for maintaining healthy and radiant skin. Begin with understanding your skin type—whether it's dry, oily, combination, or sensitive—and choose products tailored to address specific concerns. A basic skincare routine consists of cleansing to remove impurities and makeup residue, followed by toning to balance the skin's pH levels. Moisturizing is crucial for hydrating the skin and creating a protective barrier against environmental stressors. Explore the benefits of incorporating serums enriched with active ingredients such as hyaluronic acid or vitamin C to target specific skin issues like aging or hyperpigmentation. Sunscreen is non-negotiable to protect against UV rays and prevent premature aging and skin damage. Discover nighttime skincare rituals, including using nourishing creams or oils to replenish moisture while you sleep. Learn about facial masks, exfoliation, and treatments like eye creams or acne spot treatments for addressing specific concerns. This guide will help you customize a skincare regimen that suits your skin's unique needs, ensuring a healthy and glowing complexion year-round.`,
     link: '/webdesigner'
   },
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description:`Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/webdesigner'
   },
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description: `Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link:'/webdesigner'
   },
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Nail Art Inspiration: Trends and Techniques`,
     description: `Express your creativity through nail art and discover the latest trends and techniques for creating stunning manicures. Begin with nail care essentials such as shaping nails, cuticle care, and moisturizing hands and nails regularly. Explore different types of nail polishes, including classic shades, metallic finishes, and vibrant hues, and learn how to achieve flawless application for long-lasting color. Delve into step-by-step guides for creating intricate designs like ombre gradients, geometric patterns, or floral motifs using nail art brushes, dotting tools, and nail tape. Experiment with nail stamping kits or nail decals for quick and effortless designs. Discover tips for maintaining healthy nails, including using strengthening treatments or nail serums, and how to remove nail polish without damaging nails. Whether you're preparing for a special occasion or simply indulging in self-care, this guide will inspire you to elevate your manicure game and showcase your unique style through beautifully designed nails.`,
     link: '/webdesigner'
   },
   {
-    img: `/assets/active-img/cycling.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Natural Beauty Products: Benefits and Uses`,
     description: `Explore the benefits of incorporating natural beauty products into your skincare and makeup routine. Natural products are formulated with organic ingredients like plant extracts, essential oils, and botanicals that nourish and rejuvenate the skin without harsh chemicals or synthetic additives. Discover the advantages of using natural cleansers, toners, and moisturizers that promote balanced and healthy skin. Learn about the healing properties of ingredients such as aloe vera, green tea, or shea butter, which soothe irritation, reduce inflammation, and provide antioxidant protection. Dive into eco-friendly alternatives like reusable makeup wipes or bamboo toothbrushes that minimize environmental impact. Whether you're passionate about sustainability or seeking gentle skincare solutions, this guide will help you navigate the world of natural beauty products and embrace a clean beauty regimen.`,
     link: '/webdesigner'
@@ -302,37 +302,37 @@ export const webdesignerblog = [
 
 export const logodesignerblog = [
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering Everyday Makeup Looks`,
     description: `Discover how to achieve effortless and polished makeup looks suitable for everyday wear. Mastering everyday makeup involves understanding your skin type, choosing the right foundation for a natural finish, and enhancing your features with subtle contouring and highlighting techniques. Learn the importance of skincare as the foundation of any makeup routine, including cleansing, toning, moisturizing, and applying sunscreen. Explore various makeup products such as primers, concealers, eyeshadows, mascaras, and lipsticks, and how to select shades that complement your skin tone. Dive into practical tips for achieving long-lasting makeup that withstands daily activities while maintaining a fresh and natural appearance. Whether you prefer a minimalistic approach or enjoy experimenting with different makeup styles, this guide will help you create looks that enhance your natural beauty and boost your confidence every day.`,
     link: '/logodesigner'
   },
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Skincare Essentials: Building a Daily Routine`,
     description: `Building an effective skincare routine is essential for maintaining healthy and radiant skin. Begin with understanding your skin type—whether it's dry, oily, combination, or sensitive—and choose products tailored to address specific concerns. A basic skincare routine consists of cleansing to remove impurities and makeup residue, followed by toning to balance the skin's pH levels. Moisturizing is crucial for hydrating the skin and creating a protective barrier against environmental stressors. Explore the benefits of incorporating serums enriched with active ingredients such as hyaluronic acid or vitamin C to target specific skin issues like aging or hyperpigmentation. Sunscreen is non-negotiable to protect against UV rays and prevent premature aging and skin damage. Discover nighttime skincare rituals, including using nourishing creams or oils to replenish moisture while you sleep. Learn about facial masks, exfoliation, and treatments like eye creams or acne spot treatments for addressing specific concerns. This guide will help you customize a skincare regimen that suits your skin's unique needs, ensuring a healthy and glowing complexion year-round.`,
     link: '/logodesigner'
   },
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description:`Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/logodesigner'
   },
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description: `Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/logodesigner'
   },
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Nail Art Inspiration: Trends and Techniques`,
     description: `Express your creativity through nail art and discover the latest trends and techniques for creating stunning manicures. Begin with nail care essentials such as shaping nails, cuticle care, and moisturizing hands and nails regularly. Explore different types of nail polishes, including classic shades, metallic finishes, and vibrant hues, and learn how to achieve flawless application for long-lasting color. Delve into step-by-step guides for creating intricate designs like ombre gradients, geometric patterns, or floral motifs using nail art brushes, dotting tools, and nail tape. Experiment with nail stamping kits or nail decals for quick and effortless designs. Discover tips for maintaining healthy nails, including using strengthening treatments or nail serums, and how to remove nail polish without damaging nails. Whether you're preparing for a special occasion or simply indulging in self-care, this guide will inspire you to elevate your manicure game and showcase your unique style through beautifully designed nails.`,
     link: '/logodesigner'
   },
   {
-    img: `/assets/active-img/running.jpg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Natural Beauty Products: Benefits and Uses`,
     description: `Explore the benefits of incorporating natural beauty products into your skincare and makeup routine. Natural products are formulated with organic ingredients like plant extracts, essential oils, and botanicals that nourish and rejuvenate the skin without harsh chemicals or synthetic additives. Discover the advantages of using natural cleansers, toners, and moisturizers that promote balanced and healthy skin. Learn about the healing properties of ingredients such as aloe vera, green tea, or shea butter, which soothe irritation, reduce inflammation, and provide antioxidant protection. Dive into eco-friendly alternatives like reusable makeup wipes or bamboo toothbrushes that minimize environmental impact. Whether you're passionate about sustainability or seeking gentle skincare solutions, this guide will help you navigate the world of natural beauty products and embrace a clean beauty regimen.`,
     link: '/logodesigner'
@@ -342,37 +342,37 @@ export const logodesignerblog = [
 
 export const branddesignerblog = [
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering Everyday Makeup Looks`,
     description: `Discover how to achieve effortless and polished makeup looks suitable for everyday wear. Mastering everyday makeup involves understanding your skin type, choosing the right foundation for a natural finish, and enhancing your features with subtle contouring and highlighting techniques. Learn the importance of skincare as the foundation of any makeup routine, including cleansing, toning, moisturizing, and applying sunscreen. Explore various makeup products such as primers, concealers, eyeshadows, mascaras, and lipsticks, and how to select shades that complement your skin tone. Dive into practical tips for achieving long-lasting makeup that withstands daily activities while maintaining a fresh and natural appearance. Whether you prefer a minimalistic approach or enjoy experimenting with different makeup styles, this guide will help you create looks that enhance your natural beauty and boost your confidence every day.`,
     link: '/branddesigner'
   },
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Skincare Essentials: Building a Daily Routine`,
     description: `Building an effective skincare routine is essential for maintaining healthy and radiant skin. Begin with understanding your skin type—whether it's dry, oily, combination, or sensitive—and choose products tailored to address specific concerns. A basic skincare routine consists of cleansing to remove impurities and makeup residue, followed by toning to balance the skin's pH levels. Moisturizing is crucial for hydrating the skin and creating a protective barrier against environmental stressors. Explore the benefits of incorporating serums enriched with active ingredients such as hyaluronic acid or vitamin C to target specific skin issues like aging or hyperpigmentation. Sunscreen is non-negotiable to protect against UV rays and prevent premature aging and skin damage. Discover nighttime skincare rituals, including using nourishing creams or oils to replenish moisture while you sleep. Learn about facial masks, exfoliation, and treatments like eye creams or acne spot treatments for addressing specific concerns. This guide will help you customize a skincare regimen that suits your skin's unique needs, ensuring a healthy and glowing complexion year-round.`,
     link:'/branddesigner'
   },
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description:`Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/branddesigner'
   },
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description: `Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/branddesigner'
   },
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Nail Art Inspiration: Trends and Techniques`,
     description: `Express your creativity through nail art and discover the latest trends and techniques for creating stunning manicures. Begin with nail care essentials such as shaping nails, cuticle care, and moisturizing hands and nails regularly. Explore different types of nail polishes, including classic shades, metallic finishes, and vibrant hues, and learn how to achieve flawless application for long-lasting color. Delve into step-by-step guides for creating intricate designs like ombre gradients, geometric patterns, or floral motifs using nail art brushes, dotting tools, and nail tape. Experiment with nail stamping kits or nail decals for quick and effortless designs. Discover tips for maintaining healthy nails, including using strengthening treatments or nail serums, and how to remove nail polish without damaging nails. Whether you're preparing for a special occasion or simply indulging in self-care, this guide will inspire you to elevate your manicure game and showcase your unique style through beautifully designed nails.`,
     link: '/branddesigner'
   },
   {
-    img:  `/assets/active-img/sport.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Natural Beauty Products: Benefits and Uses`,
     description: `Explore the benefits of incorporating natural beauty products into your skincare and makeup routine. Natural products are formulated with organic ingredients like plant extracts, essential oils, and botanicals that nourish and rejuvenate the skin without harsh chemicals or synthetic additives. Discover the advantages of using natural cleansers, toners, and moisturizers that promote balanced and healthy skin. Learn about the healing properties of ingredients such as aloe vera, green tea, or shea butter, which soothe irritation, reduce inflammation, and provide antioxidant protection. Dive into eco-friendly alternatives like reusable makeup wipes or bamboo toothbrushes that minimize environmental impact. Whether you're passionate about sustainability or seeking gentle skincare solutions, this guide will help you navigate the world of natural beauty products and embrace a clean beauty regimen.`,
     link: '/branddesigner'
@@ -382,37 +382,37 @@ export const branddesignerblog = [
 
 export const uxdesignerblog = [
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering Everyday Makeup Looks`,
     description: `Discover how to achieve effortless and polished makeup looks suitable for everyday wear. Mastering everyday makeup involves understanding your skin type, choosing the right foundation for a natural finish, and enhancing your features with subtle contouring and highlighting techniques. Learn the importance of skincare as the foundation of any makeup routine, including cleansing, toning, moisturizing, and applying sunscreen. Explore various makeup products such as primers, concealers, eyeshadows, mascaras, and lipsticks, and how to select shades that complement your skin tone. Dive into practical tips for achieving long-lasting makeup that withstands daily activities while maintaining a fresh and natural appearance. Whether you prefer a minimalistic approach or enjoy experimenting with different makeup styles, this guide will help you create looks that enhance your natural beauty and boost your confidence every day.`,
     link: '/uxdesigner'
   },
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Skincare Essentials: Building a Daily Routine`,
     description: `Building an effective skincare routine is essential for maintaining healthy and radiant skin. Begin with understanding your skin type—whether it's dry, oily, combination, or sensitive—and choose products tailored to address specific concerns. A basic skincare routine consists of cleansing to remove impurities and makeup residue, followed by toning to balance the skin's pH levels. Moisturizing is crucial for hydrating the skin and creating a protective barrier against environmental stressors. Explore the benefits of incorporating serums enriched with active ingredients such as hyaluronic acid or vitamin C to target specific skin issues like aging or hyperpigmentation. Sunscreen is non-negotiable to protect against UV rays and prevent premature aging and skin damage. Discover nighttime skincare rituals, including using nourishing creams or oils to replenish moisture while you sleep. Learn about facial masks, exfoliation, and treatments like eye creams or acne spot treatments for addressing specific concerns. This guide will help you customize a skincare regimen that suits your skin's unique needs, ensuring a healthy and glowing complexion year-round.`,
     link: '/uxdesigner'
   },
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description:`Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/uxdesigner'
   },
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Hair Care Tips for Every Season`,
     description: `Achieving healthy and beautiful hair requires understanding how seasonal changes impact your hair's health and appearance. In colder months, combat dryness and static by incorporating hydrating shampoos and conditioners, and use deep conditioning treatments to restore moisture and shine. Protect hair from harsh weather conditions by wearing hats or using thermal protection sprays before heat styling. During warmer months, shield hair from UV damage with products containing SPF and minimize frizz with anti-humidity serums or lightweight oils. Explore styling techniques and tools suitable for each season, such as using curling irons or flat irons for versatile looks or opting for effortless beach waves with sea salt sprays. Learn about the benefits of trimming hair regularly to maintain its health and shape, and how to manage split ends and breakage with nourishing hair masks and oils. Embrace your hair's natural texture and experiment with different hairstyles, colors, and treatments to keep your locks vibrant and resilient throughout the year.`,
     link: '/uxdesigner'
   },
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Nail Art Inspiration: Trends and Techniques`,
     description: `Express your creativity through nail art and discover the latest trends and techniques for creating stunning manicures. Begin with nail care essentials such as shaping nails, cuticle care, and moisturizing hands and nails regularly. Explore different types of nail polishes, including classic shades, metallic finishes, and vibrant hues, and learn how to achieve flawless application for long-lasting color. Delve into step-by-step guides for creating intricate designs like ombre gradients, geometric patterns, or floral motifs using nail art brushes, dotting tools, and nail tape. Experiment with nail stamping kits or nail decals for quick and effortless designs. Discover tips for maintaining healthy nails, including using strengthening treatments or nail serums, and how to remove nail polish without damaging nails. Whether you're preparing for a special occasion or simply indulging in self-care, this guide will inspire you to elevate your manicure game and showcase your unique style through beautifully designed nails.`,
     link: '/uxdesigner'
   },
   {
-    img: `/assets/active-img/swimming.jpeg`,
+    img:  'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Natural Beauty Products: Benefits and Uses`,
     description: `Explore the benefits of incorporating natural beauty products into your skincare and makeup routine. Natural products are formulated with organic ingredients like plant extracts, essential oils, and botanicals that nourish and rejuvenate the skin without harsh chemicals or synthetic additives. Discover the advantages of using natural cleansers, toners, and moisturizers that promote balanced and healthy skin. Learn about the healing properties of ingredients such as aloe vera, green tea, or shea butter, which soothe irritation, reduce inflammation, and provide antioxidant protection. Dive into eco-friendly alternatives like reusable makeup wipes or bamboo toothbrushes that minimize environmental impact. Whether you're passionate about sustainability or seeking gentle skincare solutions, this guide will help you navigate the world of natural beauty products and embrace a clean beauty regimen.`,
     link: '/uxdesigner'
@@ -911,11 +911,11 @@ export const privacyPolicy = {
 export const aboutus = [
   {
     id: 0,
-    image: `/assets/aboutus.jpeg`, // Assign the imported image variable here
+    image: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg', 
     title: 'FEEDHOUR PROVIDES 100% AUTHENTIC AND TRUE TO FACTS INFORMATION IN ALL THEIR BLOGS AND PROVIDES IT USERS ALL ABOUT ANYTHING AND EVERYTHING.',
     description: 'Get fed with the most trending updates and insights related to tech, fashion, beauty, travel, food and much more. Feedhour is the best platform to feed you with recent product updates, sales and a lot more happening around the globe. Scroll through your daily dose of feeds increase your knowledge on every vertical around you.',
   },
-  // Add more article objects as needed
+  
 ];
 
 
@@ -1168,18 +1168,18 @@ export const termsData = {
 export const sidecontentimages = [
   {
     id: 1,
-    url: `/assets/clothing-img/young-woman-beautiful-red-dress_1303-17506.avif`,
+    url: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     alt: "Image 1 description"
   },
   
   {
     id: 3,
-    url: `/assets/Skincare-img/woman-applying-face-cream_1303-14311.jpg`,
+    url: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     alt: "Image 3 description"
   }, 
   {
     id: 4,
-    url: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    url: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     alt: "Image 4 description"
   },
   
@@ -1189,7 +1189,7 @@ export const sidecontentimages = [
 
 export const relatedblog = [
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Teamwork Makes the Dream Work: Young Athletes On the Court`,
     description: `Explore the transformative power of teamwork in youth sports with our in-depth look at young athletes on the court. From developing communication skills to fostering camaraderie and resilience, team sports teach invaluable life lessons that extend far beyond the game. Discover how young athletes build confidence, learn to strategize, and support each other through victories and challenges alike. Whether you're a parent, coach, or aspiring athlete, uncover the profound impact of teamwork on personal growth and athletic achievement.`,
     link: '/creativedirector',
@@ -1197,35 +1197,35 @@ export const relatedblog = [
     
   },
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Mastering the Mid-Air Catch: A Look at Soccer Skills`,
     description: `Delve into the art of mastering mid-air catches in soccer, a skill that showcases agility, timing, and precision. Learn techniques for enhancing your aerial prowess, from positioning and timing your jump to maintaining focus amidst competition. Explore how soccer players train to improve their catching abilities and how this skill contributes to overall game strategy and performance. Whether you're a player aiming to elevate your game or a fan curious about the intricacies of soccer skills, our guide provides valuable insights into mastering this dynamic aspect of the sport.`,
     link: '/digitaldesigner',
     button:'Digital Designer'
   },
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Footwork and Focus: Soccer Drills for Success`,
     description: `Enhance your soccer performance with focused drills designed to sharpen footwork, agility, and decision-making skills. Dive into a variety of drills that challenge players to improve their dribbling, passing, and defensive techniques under pressure. Learn how structured practice sessions can improve muscle memory, coordination, and overall game awareness on the field. Whether you're a coach developing training plans or a player looking to refine your skills, our guide offers practical advice and insights to elevate your soccer game to new heights.`,
     link: '/digitaldesigner',
     button:'Digital Designer'
   },
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Precision and Speed: The Athlete's Mindset`,
     description: `Gain a deeper understanding of the athlete's mindset focused on precision, speed, and mental toughness. Explore how elite athletes cultivate focus, discipline, and resilience to achieve peak performance in competitive sports. Discover strategies for managing pressure, visualizing success, and maintaining confidence during training and competition. Whether you're pursuing athletic excellence or seeking inspiration from sports psychology, our guide provides valuable insights into the mental skills that drive success in sports and beyond.`,
     link: '/webdesigner',
     button:'Web Designer'
   },
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `From the Starting Line to the Finish: Track and Field Athlete`,
     description: `Follow the journey of a track and field athlete from training to competition, exploring the dedication, technique, and endurance required for success. Discover the specialized training regimens for sprinters, long-distance runners, jumpers, and throwers, each focusing on unique skills and physical conditioning. Learn about the mental strategies athletes use to overcome challenges and achieve personal bests in their respective events. Whether you're an aspiring athlete or a fan of track and field sports, our guide provides an inside look at the rigorous yet rewarding world of competitive athletics.`,
     link: '/webdesigner',
    button:'Web Designer'
   },
   {
-    img: `/assets/makeup-img/make-up-artist-applying-lipstick-woman-with-brush_23-2148332519.jpg`,
+    img: 'https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg',
     title: `Building Strength and Flexibility: Gymnastics Training`,
     description: `Explore the art of gymnastics training, focusing on building strength, flexibility, and precision in movement. Dive into the fundamental skills and disciplines that gymnasts master, from tumbling and balance beam routines to artistic floor exercises. Learn about the conditioning exercises, drills, and techniques that gymnasts use to develop core strength, agility, and spatial awareness. Whether you're a gymnast-in-training or simply curious about this dynamic sport, our guide offers valuable insights into the dedication and athleticism required to excel in gymnastics.`,
     link: '/webdesigner',

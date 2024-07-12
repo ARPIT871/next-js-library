@@ -91,9 +91,9 @@ const Intro = () => {
                     </CustomLink>
                   
                     <CustomLink href={`/details/articles/${index + 1}`} style={{ textDecoration: 'none',color:'#fff' }}>
-                      <Typography variant="h6" sx={{fontWeight:'bold'}}>{article.title}</Typography>
+                      <Typography variant="h6" sx={{fontWeight:'bold'}}>{article.title ? `${article.title.substring(0,40)}...` : ''}</Typography>
                     </CustomLink>
-                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}> {article.description ? `${article.description.substring(0,0)}...` : ''}</Typography>
+                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}> {article.description ? `${article.description.substring(0,0)}` : ''}</Typography>
                   </Box>
                 </Card>
               </Grid>

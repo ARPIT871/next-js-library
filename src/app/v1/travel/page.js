@@ -1,3 +1,4 @@
+'use client'
 import Travel from '@/projects/trend-chic-app/pages/travel'
 import React from 'react'
 

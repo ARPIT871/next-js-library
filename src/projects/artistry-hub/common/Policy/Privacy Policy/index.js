@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { Container, Grid, Typography } from '@mui/material';
 import { privacyPolicy } from '../../data/data';
