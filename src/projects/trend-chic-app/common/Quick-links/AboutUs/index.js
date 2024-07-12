@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import {styled} from '@mui/material'
 import { Grid, Box, Typography, Container} from '@mui/material';
@@ -15,7 +16,7 @@ const ColorTypography = styled(Typography)(({ theme }) => ({
       backgroundColor: theme.palette.error.dark,
     },
   }));
-const AboutUs = () => {
+const Aboutus = () => {
   return (
     <Container>
       <Grid container justifyContent="center">
@@ -57,4 +58,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Aboutus;

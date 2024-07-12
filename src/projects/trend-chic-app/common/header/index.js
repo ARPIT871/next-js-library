@@ -99,7 +99,7 @@ function Header() {
                 <CustomLink href={pages[0].to}>
                   <Typography>
                     <img
-                      src="/assets/home-assets/logo.png"
+                      src="/trend-chic-logo.png"
                       alt="logo"
                       style={{ width: "100%", height: "auto" }}
                     />
