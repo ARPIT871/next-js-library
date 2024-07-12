@@ -1,3 +1,4 @@
+'use client'
 import  React, {useState} from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -5,11 +6,10 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { Link } from 'react-router-dom';
 import { Container, useMediaQuery, useTheme } from '@mui/material';
 import { advertisements3 } from '../../../common/data/data';
 import { data } from '../../../common/data/data';
-import { Link as RouterLink } from 'react-router-dom';
+import CustomLink from '@/utils/customLink';
 
 
 
@@ -50,22 +50,22 @@ export default function Blog() {
                       <>
                         <Grid item xs={12}>
                           <div style={{ position: 'relative' }}>
-                          <Link to={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
+                          <CustomLink href={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
                             <img src={item.image} alt="product" style={{ width: '100%', height: 'auto' }} />
-                          </Link>
-                          <Link to={item.link}>
+                          </CustomLink>
+                          <CustomLink href={item.link}>
                             <Button variant="contained" sx={{ position: 'absolute', bottom: 5, left: 0, padding: '0px 8px', fontSize: '11px', textTransform: 'none', borderRadius: '0px', margin: '0px', bgcolor: '#D4000E', '&:hover': { bgcolor: '#A3000A' } }}>
                               {item.button}
                             </Button>
-                            </Link>
+                            </CustomLink>
                           </div>
                         </Grid>
                         <Grid item xs={12}>
-                           <Link to={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
+                           <CustomLink href={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
                           <Typography variant="subtitle1" gutterBottom sx={{ color: '#161616', fontWeight: 'bold' }}>
                             {item.title}
                           </Typography>
-                          </Link>
+                          </CustomLink>
                           <Typography variant="body2" gutterBottom sx={{ color: '#505050' }}>
                           {item.description ? `${item.description.substring(0, 100)}...` : ''}
                           </Typography>
@@ -75,22 +75,22 @@ export default function Blog() {
                       <>
                         <Grid item xs={4}>
                           <div style={{ position: 'relative' }}>
-                          <Link to={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
+                          <CustomLink href={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
                             <img src={item.image} alt="product" style={{ width: '100%', height: 'auto' }} />
-                            </Link>
-                            <Link to={item.link}>
+                            </CustomLink>
+                            <CustomLink href={item.link}>
                             <Button  variant="contained" sx={{ position: 'absolute', bottom: 5, left: 0, padding: '0px 8px', fontSize: '11px', textTransform: 'none', borderRadius: '0px', margin: '0px', bgcolor: '#D4000E', '&:hover': { bgcolor: '#A3000A' } }}>
                               {item.button}
                             </Button>
-                            </Link>
+                            </CustomLink>
                           </div>
                         </Grid>
                         <Grid item xs={8}>
-                          <Link to={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
+                          <CustomLink href={`/details/blog/${index}`} style={{ textDecoration: 'none' }}>
                             <Typography variant="subtitle1" gutterBottom sx={{ color: '#161616', fontWeight: 'bold' }}>
                               {item.title}
                             </Typography>
-                          </Link>
+                          </CustomLink>
                           <Typography variant="body2" gutterBottom sx={{ color: '#505050' }}>
                             {item.description ? `${item.description.substring(0, 100)}...` : ''}
                           </Typography>
@@ -121,9 +121,9 @@ export default function Blog() {
       {advertisements3.map((advertisement3, index) => (
       <Grid item key={advertisement3.image} xs={12} sm={6} md={4} lg={3}>
       <Box sx={{ mb: 2 }}>
-      <Link component={RouterLink} to={advertisements3.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+      <CustomLink href={advertisements3.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
 
-      <img src={advertisement3.image} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} /></Link>
+      <img src={advertisement3.image} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} /></CustomLink>
       </Box>
       </Grid>
       ))}

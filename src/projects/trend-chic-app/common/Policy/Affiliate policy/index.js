@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { Typography, Link, Container } from '@mui/material';
+import { Typography, Container } from '@mui/material';
 import { affiliatePolicyData } from '../../data/data';
+import CustomLink from '@/utils/customLink';
 
 
 export default function AffiliatePolicy() {
@@ -13,16 +14,16 @@ export default function AffiliatePolicy() {
         <Typography variant="body1" key={index}>
           {item.text}
           {item.link && (
-            <Link href={item.link.href} underline={item.link.underline}>
+            <CustomLink href={item.link.href} underline={item.link.underline}>
               {item.link.text}
-            </Link>
+            </CustomLink>
           )}
           {item.extraText}
           {item.links && item.links.map((linkItem, linkIndex) => (
             linkItem.href ? (
-              <Link href={linkItem.href} underline={linkItem.underline} key={linkIndex}>
+              <CustomLink href={linkItem.href} underline={linkItem.underline} key={linkIndex}>
                 {linkItem.text}
-              </Link>
+              </CustomLink>
             ) : (
               linkItem.text
             )

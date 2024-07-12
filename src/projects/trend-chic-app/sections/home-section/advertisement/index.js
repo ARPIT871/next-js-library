@@ -1,11 +1,12 @@
+'use client'
 import React from 'react';
 import { Box, Typography, Grid, Container,Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { advertisements2 } from '../../../common/data/data';
 import { categories } from '../../../common/data/data';
-import { Link as RouterLink } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import { advertisements } from '../../../common/data/data';
+import Link from 'next/link';
+import CustomLink from '@/utils/customLink';
 
 
 
@@ -38,8 +39,8 @@ const Advertisement = () => {
             {row.map((ad, columnIndex) => (
               <Grid item xs={12} sm={6} key={rowIndex * 2 + columnIndex} sx={{ textAlign: 'center', marginBottom: '16px' }}>
                 <Box>
-                <Link component={RouterLink} to={advertisements.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-                  <img src={ad.image} alt={`Advertisement ${rowIndex * 2 + columnIndex + 1}`} style={{ maxWidth: '100%' }} /></Link>
+                <CustomLink  href={advertisements.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <img src={ad.image} alt={`Advertisement ${rowIndex * 2 + columnIndex + 1}`} style={{ maxWidth: '100%' }} /></CustomLink>
                   <Typography variant="body2" color="textSecondary">Advertisement </Typography>
                 </Box>
               </Grid>
@@ -48,16 +49,18 @@ const Advertisement = () => {
         ))}
         <Grid container spacing={2} justifyContent="center" marginTop={4}>
           {categories.map((category, index) => (
-            <Grid item xs={6} sm={4} md={2} key={category.name} sx={{ textAlign: 'center', marginBottom: '16px' }}  component={Link}
-            to={categories[0].link}>
+            <CustomLink href={categories[0].link}>
+             <Grid item xs={6} sm={4} md={2} key={category.name} sx={{ textAlign: 'center', marginBottom: '16px' }}>
               <Box >
                
-              <Link component={RouterLink} to={category.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+              <CustomLink  href={category.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                   <img src={category.image} alt={category.name} style={{ width: '100%', borderRadius: '8px' }} />
                   <Typography variant="h6" sx={{ marginTop: '10px', color: '#000' }}>{category.name}</Typography>
-                </Link>
+                </CustomLink>
               </Box>
             </Grid>
+            </CustomLink>
+           
           ))} 
         </Grid>
       </Box>
@@ -82,10 +85,10 @@ const Advertisement = () => {
               {advertisements2.map((advertisement2, index) => (
                 <Grid item key={advertisement2.image} xs={12} sm={6} md={4} lg={3}>
                   <Box sx={{ mb: 2 }}>
-                  <Link component={RouterLink} to={advertisements2.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                  <CustomLink  href={advertisements2.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
 
                     <img src={advertisement2.image} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
-                    </Link>
+                    </CustomLink>
                   </Box>
                 </Grid>
               ))}

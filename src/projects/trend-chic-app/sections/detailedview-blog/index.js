@@ -1,5 +1,5 @@
+'use client'
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import { Container, Typography, Button, Box, Grid,IconButton } from '@mui/material';
 import { data, images, articles,foodblog, lifestyleblog, sportsblog, financeblog, technologyblog, beautyblog, fashionblog, healthblog,categories} from '../../common/data/data';
 import SideContent from '../../common/sidecontent';
@@ -10,8 +10,7 @@ const handleShare = (platform) => {
   // Define your share logic here
   console.log(`Share to ${platform}`);
 };
-const DetailedView = () => {
-  const { type, id } = useParams();
+const DetailedView = ({type, id}) => {
 
   // Determine the correct item based on type
   let item = null;

@@ -15,7 +15,7 @@ const ColorTypography = styled(Typography)(({ theme }) => ({
       backgroundColor: theme.palette.error.dark,
     },
   }));
-const ArticleCard = () => {
+const AboutUs = () => {
   return (
     <Container>
       <Grid container justifyContent="center">
@@ -57,4 +57,4 @@ const ArticleCard = () => {
   );
 };
 
-export default ArticleCard;
+export default AboutUs;

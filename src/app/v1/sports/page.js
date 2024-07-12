@@ -1,8 +1,9 @@
+import Sports from '@/projects/trend-chic-app/pages/sports'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <Sports/>
   )
 }
 
