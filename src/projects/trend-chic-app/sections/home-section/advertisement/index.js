@@ -1,24 +1,17 @@
+'use client'
 import React from 'react';
-import { Box, Typography, Grid, Container,Paper } from '@mui/material';
+import { Box, Typography, Grid, Container, Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { advertisements2 } from '../../../common/data/data';
-import { categories } from '../../../common/data/data';
-import { Link as RouterLink } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import { advertisements } from '../../../common/data/data';
+import { advertisements2, categories, advertisements } from '../../../common/data/data';
+import CustomLink from '@/utils/customLink';
 
-
-
-
-
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark'? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  }));
-
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
 
 const Advertisement = () => {
   // Function to chunk advertisements into 2x2 grid
@@ -31,34 +24,33 @@ const Advertisement = () => {
   const chunkedAdvertisements = chunkArray(advertisements, 2);
 
   return (
-    <Container sx={{marginTop:'40px'}}>
+    <Container sx={{ marginTop: '40px' }}>
       <Box sx={{ padding: '20px', backgroundColor: '#f8f8f8' }}>
         {chunkedAdvertisements.map((row, rowIndex) => (
           <Grid container spacing={2} key={rowIndex} justifyContent="center">
             {row.map((ad, columnIndex) => (
               <Grid item xs={12} sm={6} key={rowIndex * 2 + columnIndex} sx={{ textAlign: 'center', marginBottom: '16px' }}>
                 <Box>
-                <Link component={RouterLink} to={advertisements.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-                  <img src={ad.image} alt={`Advertisement ${rowIndex * 2 + columnIndex + 1}`} style={{ maxWidth: '100%' }} /></Link>
-                  <Typography variant="body2" color="textSecondary">Advertisement </Typography>
+                  <CustomLink href={ad.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                    <img src={ad.image} alt={`Advertisement ${rowIndex * 2 + columnIndex + 1}`} style={{ maxWidth: '100%' }} />
+                  </CustomLink>
+                  <Typography variant="body2" color="textSecondary">Advertisement</Typography>
                 </Box>
               </Grid>
             ))}
           </Grid>
         ))}
         <Grid container spacing={2} justifyContent="center" marginTop={4}>
-          {categories.map((category, index) => (
-            <Grid item xs={6} sm={4} md={2} key={category.name} sx={{ textAlign: 'center', marginBottom: '16px' }}  component={Link}
-            to={categories[0].link}>
-              <Box >
-               
-              <Link component={RouterLink} to={category.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+          {categories.map((category) => (
+            <Grid item xs={6} sm={4} md={2} key={category.name} sx={{ textAlign: 'center', marginBottom: '16px' }}>
+              <Box>
+                <CustomLink href={category.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                   <img src={category.image} alt={category.name} style={{ width: '100%', borderRadius: '8px' }} />
                   <Typography variant="h6" sx={{ marginTop: '10px', color: '#000' }}>{category.name}</Typography>
-                </Link>
+                </CustomLink>
               </Box>
             </Grid>
-          ))} 
+          ))}
         </Grid>
       </Box>
       {/* ---------------------- */}
@@ -79,18 +71,16 @@ const Advertisement = () => {
           <Container sx={{ padding: '20px', backgroundColor: '#f8f8f8' }}>
             <Typography sx={{ textAlign: 'center', color: '#353535', marginTop: '20px', marginBottom: '30px' }}>Advertisement</Typography>
             <Grid container spacing={2} justifyContent="center">
-              {advertisements2.map((advertisement2, index) => (
+              {advertisements2.map((advertisement2) => (
                 <Grid item key={advertisement2.image} xs={12} sm={6} md={4} lg={3}>
                   <Box sx={{ mb: 2 }}>
-                  <Link component={RouterLink} to={advertisements2.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-
-                    <img src={advertisement2.image} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
-                    </Link>
+                    <CustomLink href={advertisement2.link || '#'} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+                      <img src={advertisement2.image} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
+                    </CustomLink>
                   </Box>
                 </Grid>
               ))}
             </Grid>
-            
           </Container>
         </Grid>
       </Box>

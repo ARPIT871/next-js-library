@@ -1,7 +1,8 @@
+'use client';
 import React from 'react';
 import { sidecontentimages } from '../data/data';
 import './index.css'; 
-import { Link } from 'react-router-dom';
+import CustomLink from '@/utils/customLink';
 
 
 const SideContent = () => {
@@ -9,9 +10,9 @@ const SideContent = () => {
     <div className="side-content" style={{marginTop:'60px'}}>
       {sidecontentimages.map(image => (
         <div key={image.id} className="image-container">
-          <Link to={image.link}>
+          <CustomLink href={image.CustomLink}>
           <img src={image.url} alt={image.alt} />
-          </Link>
+          </CustomLink>
         </div>
       ))}
     </div>

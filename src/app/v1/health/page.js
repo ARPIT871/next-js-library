@@ -1,8 +1,9 @@
+import Health from '@/projects/trend-chic-app/pages/health'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>About us</div>
+    <Health/>
   )
 }
 

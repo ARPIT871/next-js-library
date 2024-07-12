@@ -3,8 +3,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 import { disclaimerData } from '../../data/data';
+import CustomLink from '@/utils/customLink';
 const Item = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -22,9 +22,9 @@ export default function Disclaimer() {
           <Typography variant="body1" gutterBottom key={index} sx={{ textAlign: 'left' }}>
             {item.text}
             {item.link && (
-              <Link href={item.link.href} underline="hover" target={item.link.target}>
+              <CustomLink href={item.link.href} underline="hover" target={item.link.target}>
                 {item.link.text}
-              </Link>
+              </CustomLink>
             )}
             {item.extraText}
           </Typography>
