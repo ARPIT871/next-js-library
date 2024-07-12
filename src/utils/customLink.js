@@ -1,5 +1,7 @@
+'use client';
 // components/CustomLink.js
 import Link from 'next/link';
+import { useSelector } from 'react-redux';
 
 const linkStyle = {
   textDecoration: 'none',
@@ -7,13 +9,17 @@ const linkStyle = {
 };
 
 const CustomLink = ({ href, style, ...props }) => {
+  const pathName=sessionStorage.getItem("pathname").split("/")[1]
   let newHref = href;
+
+  // const path=getPathName();
+ 
 
   if (typeof href === 'string') {
     if (href === '/') {
-      newHref = '/v1';
-    } else if (href.startsWith('/') && href !== '/v1') {
-      newHref = `/v1${href}`;
+      newHref = `/${pathName}`;
+    } else if (href.startsWith('/') && href !== `/${pathName}`) {
+      newHref = `/${pathName}${href}`;
     }
   }
   
